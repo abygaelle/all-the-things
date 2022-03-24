@@ -8,7 +8,7 @@ import SillyThings from './pages/SillyThings/SIllyThings'
 import Landing from './pages/Landing/Landing'
 
 const App = () => {
-  const [RyansThings, setRyansThings] = useState([
+  const [ryansThings, setRyansThings] = useState([
     {
       name: 'board games',
       image: 'https://imgs.xkcd.com/comics/functional.png',
@@ -135,7 +135,7 @@ const App = () => {
       <Route path="/" element={<Landing />} />
       <Route
         path="/the-functional-things"
-        element={<FunctionalThings things={shahzadsThings} />}
+        element={<FunctionalThings things={ryansThings} />}
       />
       <Route
         path="/the-manliest-things"
